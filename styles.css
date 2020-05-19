@@ -1,0 +1,430 @@
+
+/*Body styling*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: verdana, sans-serif;
+}
+
+
+/*Header Styling*/
+#header .section-title{
+	margin:0;
+	position: fixed;
+	z-index: 1;
+	background-color: #fff;
+	width: 100%;
+}
+
+#header .section-title .logo{
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 2%;	
+	width: 15%;
+}
+
+#header .section-title .logo img{
+	width: 100%;
+}
+
+#header .section-title .toggle{
+	visibility: hidden;
+	display: inline-block;
+}
+
+#header .section-title .navbar{
+	display: inline-block;
+	width: 70%;
+	position: relative;
+	top:-10px;
+	margin-left: 4%;
+	padding-left: 15%;
+}
+
+#header .section-title .navbar li {
+	display: inline-block;
+	font-size: 0.9em;
+	list-style: none;
+	padding-left: 20px;	
+}
+
+#header .section-title .navbar .last{
+	margin-left: 15%;
+	font-size: 1.0em;
+	border: 1px solid hsl(192, 70%, 51%);
+	border-radius: 15px;
+	padding: 10px;
+	background-color:hsl(192, 70%, 51%);
+}
+
+#header .section-title .navbar .last a:hover{
+	color: #fff;	
+	border-bottom: none;
+}
+
+#header .section-title .navbar li a{
+	text-decoration: none;
+	color: #000;
+}
+
+#header .section-title .navbar li a:hover{
+	border-bottom: 2px solid hsl(192, 70%, 51%);
+	padding-bottom: 10px;
+}
+
+/*First Section Styling*/
+#section1 .section-title {
+	background-color: #f2f2f2;
+	background-image: url(./images/bg-intro-desktop.svg);
+	background-position:top right;
+	background-repeat: no-repeat;
+	background-size: 700px;
+	width: 100%;
+}
+
+#section1 .section-title .header p{
+	padding-top: 5px;
+	padding-left: 8%;
+	padding-bottom: 20px;
+}
+
+#section1 .section-title .header h2{
+	padding-top: 12%; 
+	padding-left: 8%;
+	font-size: 2.6em;
+	font-weight: normal;
+	width: 40%;	
+	padding-bottom: 20px;
+}
+
+#section1 .section-title .header .invite{
+	margin-top: 30px;
+	padding-left: 8%;
+	padding-bottom: 100px;
+}
+
+#section1 .section-title .header .invite a{
+	text-decoration: none;
+	padding: 10px;
+	border:1px solid hsl(192, 70%, 51%);
+	background-color:hsl(192, 70%, 51%);
+	color: #000;
+	border-radius: 15px;	
+}
+
+#section1 .section-title .header .invite a:hover{
+	color: #fff;
+}
+
+#img .sect9 img{
+	position: absolute;
+	top:10%;
+	right: 3%;
+	height: 90%;
+}
+
+/*Second section styling*/
+#section2 .section-title{
+	background-color: #e6e6e6;
+}
+
+#section2 .section-title .section-header{
+	padding-top: 10%;
+	padding-left: 8%;
+}
+
+#section2 .section-title .section-header h1{
+	font-size: 1.7em;
+	font-weight: normal;
+	padding: 15px 0;
+}
+
+#section2 .section-title .section-header h3{
+	font-size: 1.0em;
+	font-weight: normal;
+	padding: 3px;
+}
+
+#section2 .section-title .section-info{
+	width: 84%;
+	margin: 0 8%;
+	margin-top: 5%;
+}
+
+#section2 .section-title .section-info .sect1{
+	width: 24%;
+	display: inline-block;	
+	padding-bottom: 70px; 
+}
+
+#section2 .section-title .section-info .sect1 .product-info h2{
+	font-size: 1.4em;
+	padding: 20px 0;
+	font-weight: normal;
+}
+
+#section2 .section-title .section-info .sect1 .product-info p{
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+/*Third Section Styling*/
+#section3 .section-title{
+	padding: 6% 0;
+	width: 84%;
+	margin:0 8%;
+}
+
+#section3 .section-title .sect2 h2{
+	font-weight: normal;
+	padding:10px 0;
+	font-size: 1.7em;
+}
+
+#section3 .section-title .thumb{
+	margin-top: 30px;
+	display: inline-block;
+	width: 260px;
+}
+
+#section3 .section-title .thumb .section-header {
+	width: 230px;
+	height: 200px;	
+}
+
+#section3 .section-title .thumb .section-header img{
+	width: 100%;
+	height: 100%;
+	padding-bottom: 10px;
+}
+
+#section3 .section-title .thumb .section-info span{
+	font-size: 0.8em;
+	font-style: italic;
+	padding-bottom: 5px;
+}
+
+#section3 .section-title .thumb .section-info h3 a{
+	font-size: 1em;
+	font-weight: normal;
+	padding-bottom: 3px;
+	text-decoration: none;
+	color: #000;
+}
+
+#section3 .section-title .thumb .section-info h3 a:hover{
+	color:hsl(192, 70%, 51%);
+}
+
+#section3 .section-title .thumb .section-info p{
+	font-size: 0.8em;
+}
+
+
+/*footer styling*/
+#footer .container {
+	background-color: #bfbfbf;
+}
+
+#footer .container .section-title{
+	padding:30px;
+}
+
+#footer .container .section-title .left{
+	display: inline-block;
+	width: 300px;
+}
+#footer .container .section-title .center{
+	display: inline-block;
+	width: 600px;
+}
+#footer .container .section-title .copyright{
+	display: inline-block;
+	width: 300px;
+}
+
+#footer .container .section-title .left .logo{
+	padding-bottom: 40px;
+}
+
+#footer .container .section-title .left .social-media{
+	padding-right: 5px;
+}
+
+#footer .container .section-title .center .navbar-left{
+	display: inline-block;
+	margin-left: 50px;
+	position: relative;
+	top: -15px;
+}
+
+#footer .container .section-title .center .navbar-right{
+	display: inline-block;
+	margin-left: 200px;
+	position: relative;
+	top: -15px;
+}
+
+#footer .container .section-title .center .navbar-left li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+#footer .container .section-title .center .navbar-right li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+#footer .container .section-title .center .navbar-left li a{	
+	text-decoration: none;
+	color: #fff;	
+}
+
+#footer .container .section-title .center .navbar-right li a{	
+	text-decoration: none;
+	color: #fff;	
+}
+
+#footer .container .section-title .copyright{
+	position: relative;
+	top:-20px;
+}
+
+#footer .container .section-title .copyright span a{
+	margin-bottom: 40px;
+	border: 1px solid hsl(192, 70%, 51%);
+	border-radius: 15px;
+	color: #ccc;
+	background: hsl(192, 70%, 51%);
+	text-decoration: none;
+	padding: 10px;
+}
+    
+#footer .container .section-title .copyright span a:hover{
+	color: #fff;
+}
+
+#footer .container .section-title .copyright p{
+	color: #fff;
+	margin-top: 30px;
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	position: relative;
+	top: -10px;
+}
+ 
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+	padding-bottom: 5px;
+}
+
+
+/*Responsive Design for Mobile (width 380px)*/
+@media only screen and (max-width: 600px){
+	#header .section-title{
+		position:relative;
+		z-index: 0;
+	}
+	
+	#header .section-title .logo{
+		display:block;
+		width: 50% ;
+	}
+	
+	#header .section-title .navbar{
+		display: block;
+		width: 100%;
+		padding: 0;
+		margin:0;		
+	}
+	
+	#header .section-title .navbar li {
+		display: block;
+		text-align: center;
+		margin-bottom:20px;
+	}
+	
+	#img .sect9 img{
+		position: relative;
+		width:500px;
+	}
+	
+	#section2 .section-title .section-info .sect1{
+		width:80%;
+		margin: 0 auto;
+		display: block;
+	}
+	
+	#section2 .section-title .section-info{
+		width: 80%;
+	}
+	
+	#section3 .section-title .sect2 h2{
+		text-align:center;
+	}
+	
+	#section3 .section-title .thumb{
+		display: block;
+		width: 100%;
+		text-align: center;		
+	}
+	
+	#section3 .section-title .thumb .section-header{
+		align-content: center;
+		justify-content: center;
+		margin: 0 auto; 
+	}
+	
+	#section3 .section-title .thumb{
+		width: 100%;
+		display: block;
+	}
+	
+	#footer .container .section-title .left{
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	#footer .container .section-title .center{
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	#footer .container .section-title .copyright{
+		display: block;
+		margin: 0 auto;
+		top:0;
+		width: 100%;
+	}
+	
+	#footer .container .section-title .center .navbar-left{
+		display: block;
+		position: relative;
+		top: 0;
+		margin:0 auto;
+		padding: 10px 0;
+	}
+	
+	#footer .container .section-title .center .navbar-right{
+		display: block;
+		position: relative;
+		top: 0;
+		margin: 0;
+	}
+	
+	#footer .container .section-title .copyright{
+		top:0;
+		margin-top: 30px;
+				
+	}
+}
+  
